@@ -2,10 +2,6 @@ var curr_index = 0;
 var is_playing = false;
 var timer;
 var speed = 100;
-/*$(document).ready(listo);
-function listo(){
-	alert('hola');
-}*/
 
 $('body').on('click', '.play', function(e){
   e.preventDefault();
